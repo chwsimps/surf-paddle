@@ -1,0 +1,66 @@
+/*img {
+  width: 100%;
+}*/
+
+/* Header */
+.header {
+  background-image: url("../img/header.jpg");
+  background-color: blue;
+  height: 523px;
+  width: 1300px;
+  padding: 1px;
+  margin: 8px;
+  overflow: auto;
+}
+
+ul.top {
+  overflow: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+li.logo {
+  float: left;
+  width: 31%;
+  color: #003153;
+  font-family: 'Oswald', sans-serif;
+}
+
+.logo-img {
+  float: left;
+}
+
+.top-left {
+  margin: 10px;
+  display: inline-block;
+}
+
+li.search {
+  float: right;
+  font-family: 'Oswald', sans-serif;
+  color: #003153;
+  font-size: 20px;
+}
+
+.about {
+  margin: 20px;
+}
+
+.surf {
+  padding-top: 20px;
+  margin-bottom: -30px;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.iron {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: #003153;
+}
+
+ul {
+  list-style: none;
+}
