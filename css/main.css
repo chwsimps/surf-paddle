@@ -206,6 +206,8 @@ li.social {
   display: inline-block;
   list-style: none;
   margin 0;
+  overflow: auto;
+  position: relative;
 }
 
 .image2 {
