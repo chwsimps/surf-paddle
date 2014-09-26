@@ -91,8 +91,8 @@ ul {
 .title-avatar {
   float: left;
   display: inline-block;
-  width: 30px;
-  margin-right: 12px;
+  width: 25px;
+  margin-right: 10px;
   margin-top: -4px;
 }
 
@@ -100,12 +100,16 @@ ul {
   color: HSLA(205, 8%, 40%, 1);
 }
 
-.title-area span {
+.av-on {
   color: HSLA(205, 8%, 40%, 1);
 }
 
 .avatar-span {
-  color: HSLA(206, 84%, 38%, 1);
+  color: HSLA(206, 84%, 38%, 1)
+}
+
+.chic {
+  color: HSLA(205, 8%, 40%, 1);
 }
 
 blockquote{
@@ -278,7 +282,7 @@ li.image1 {
   width: 100%;
   height: 100%;
   font-size: 23px;
-  background-color: HSLA(206, 52%, 60%, .5);
+  background-color: HSLA(206, 52%, 60%, .7);
   color: HSLA(204, 82%, 18%, 1);
 }
 
@@ -288,6 +292,11 @@ li.image1 {
   margin-top: 284px;
   font-size: 23px;
   font-weight: bold;
+}
+
+.image1 div:hover {
+  background-color: HSLA(206, 52%, 60%, 0);
+  color: white;
 }
 
 li.image2 {
@@ -304,7 +313,7 @@ li.image2 {
   width: 325px;
   height: 325px;
   font-size: 23px;
-  background-color: HSLA(206, 52%, 60%, .5);
+  background-color: HSLA(206, 52%, 60%, .7);
   color: HSLA(204, 82%, 18%, 1);
 }
 
@@ -315,6 +324,10 @@ li.image2 {
   font-size: 23px;
   font-weight: bold;
 }
+
+/*.image2 div:hover {
+  background-color: HSLA(206, 52%, 60%, 0);
+  color: white;*/
 
 li.image3 {
   background-image: url("../img/article-image-3.jpg");
@@ -330,7 +343,7 @@ li.image3 {
   width: 325px;
   height: 325px;
   font-size: 23px;
-  background-color: HSLA(206, 52%, 60%, .5);
+  background-color: HSLA(206, 52%, 60%, .7);
   color: HSLA(204, 82%, 18%, 1);
 }
 
@@ -341,6 +354,10 @@ li.image3 {
   font-size: 23px;
   font-weight: bold;
 }
+
+/*.image3 div:hover {
+  background-color: HSLA(206, 52%, 60%, 0);
+  color: white;*/
 
 li.image4 {
   background-image: url("../img/article-image-4.jpg");
@@ -356,7 +373,7 @@ li.image4 {
   width: 325px;
   height: 325px;
   font-size: 23px;
-  background-color: HSLA(206, 52%, 60%, .5);
+  background-color: HSLA(206, 52%, 60%, .7);
   color: HSLA(204, 82%, 18%, 1);
 }
 
@@ -366,6 +383,11 @@ li.image4 {
   margin-top: 284px;
   font-size: 23px;
   font-weight: bold;
+}
+
+.image4 div:hover {
+  background-color: HSLA(206, 52%, 60%, 0);
+  color: white;
 }
 
 .footer {
