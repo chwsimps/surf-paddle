@@ -133,18 +133,82 @@ ul.icon {
 
 li.icon-comment {
   float:left;
-  background-color: blue;
+  background-color: HSLA(205, 8%, 40%, 1);
   text-align: center;
-  text-vertical: center;
   height: 30px;
   width: 30px;
 }
 
 li.icon-read {
-  background-color: gray;
+  background-color: HSLA(206, 18%, 69%, 1);
   width: 125px;
   height: 30px;
-  font-size: 10px;
+  font-size: 12px;
+  color: white;
+  float:left;
+}
+
+.com-img1 {
+  padding-top: 7px;
+}
+
+.read-com1 {
+  margin-top: 6px;
+  text-align: center;
+}
+
+li.icon-cloud {
+  float:left;
+  background-color: HSLA(205, 8%, 40%, 1);
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+li.icon-later {
+  background-color: HSLA(206, 18%, 69%, 1);
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  color: white;
+  float:left;
+}
+
+.com-img2 {
+  padding-top: 7px;
+}
+
+.read-com2 {
+  margin-top: 6px;
+  text-align: center;
+}
+
+li.icon-upload {
+  float:left;
+  background-color: HSLA(205, 8%, 40%, 1);
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+li.icon-share {
+  background-color: HSLA(206, 84%, 38%, 1);
+  width: 125px;
+  height: 30px;
+  font-size: 12px;
+  color: white;
+  float:left;
+}
+
+.com-img3 {
+  padding-top: 7px;
+}
+
+.read-com3 {
+  margin-top: 6px;
+  text-align: center;
 }
 
 .middle-right {
