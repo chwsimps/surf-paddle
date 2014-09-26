@@ -104,6 +104,14 @@ ul {
   margin-top: -4px;
 }
 
+.title-area p {
+  color: HSLA(205, 8%, 40%, 1);
+}
+
+.title-area span {
+  color: HSLA(205, 8%, 40%, 1);
+}
+
 .avatar-span {
   color: HSLA(206, 84%, 38%, 1);
 }
@@ -117,6 +125,26 @@ blockquote{
   color: HSLA(206, 84%, 38%, 1);
   font-size: 30px;
   vertical-align: text-center;
+}
+
+ul.icon {
+  float: left;
+}
+
+li.icon-comment {
+  float:left;
+  background-color: blue;
+  text-align: center;
+  text-vertical: center;
+  height: 30px;
+  width: 30px;
+}
+
+li.icon-read {
+  background-color: gray;
+  width: 125px;
+  height: 30px;
+  font-size: 10px;
 }
 
 .middle-right {
@@ -151,7 +179,6 @@ li.social {
   float:left;
   margin-left: 40px;
   margin-bottom: 0;
-  font: bold;
   color: HSLA(206, 84%, 38%, 1)
 }
 
@@ -159,4 +186,36 @@ li.social {
   float: left;
   margin-left: 40px;
   margin-top: 5px;
+  color: HSLA(206, 18%, 69%, 1);
+}
+
+.style {
+  background-color: blue;
+}
+
+.posts {
+  text-align: center;
+  color: HSLA(204, 82%, 18%, 1);
+  font-size: 35px;
+  border-top: solid 1px;
+  border-color: HSLA(200, 18%, 90%, 1);
+  font-weight: bold;
+}
+
+.article-image {
+  display: inline-block;
+  list-style: none;
+  margin 0;
+}
+
+.image2 {
+  margin-left: -5px;
+}
+
+.image3 {
+  margin-left: -5px;
+}
+
+.image4 {
+  margin-left: -5px;
 }
