@@ -126,8 +126,27 @@ ul {
   margin-right: 5px;
 }
 
+.par1 {
+  line-height: 26px;
+  margin-top: 30px;
+}
+
+.par3 {
+  line-height: 26px;
+}
+
+.par4 {
+  line-height: 26px;
+}
+
 .chic {
   color: HSLA(205, 8%, 40%, 1);
+  line-height: 25px;
+}
+
+.chic-text {
+  color: HSLA(206, 18%, 77%, 1);
+  margin-right: -3px;
 }
 
 blockquote{
@@ -135,6 +154,8 @@ blockquote{
   line-height: 56px;
   padding: 0;
   margin-left: 9px;
+  margin-top: 14px;
+  margin-bottom: 14px;
   padding-left: 20px;
   display: inline-block;
   color: HSLA(206, 84%, 38%, 1);
@@ -144,6 +165,7 @@ blockquote{
 
 ul.icon {
   float: left;
+  margin-top: 10px;
 }
 
 li.icon-comment {
@@ -151,7 +173,8 @@ li.icon-comment {
   background-color: HSLA(205, 8%, 40%, 1);
   text-align: center;
   height: 30px;
-  width: 30px;
+  width: 34px;
+  margin-left: 5px;
 }
 
 li.icon-read {
@@ -177,13 +200,13 @@ li.icon-cloud {
   background-color: HSLA(205, 8%, 40%, 1);
   text-align: center;
   height: 30px;
-  width: 30px;
+  width: 34px;
   margin-left: 10px;
 }
 
 li.icon-later {
   background-color: HSLA(206, 18%, 69%, 1);
-  width: 100px;
+  width: 95px;
   height: 30px;
   font-size: 12px;
   color: white;
@@ -191,7 +214,7 @@ li.icon-later {
 }
 
 .com-img2 {
-  padding-top: 7px;
+  padding-top: 8px;
 }
 
 .read-com2 {
@@ -204,7 +227,7 @@ li.icon-upload {
   background-color: HSLA(205, 8%, 40%, 1);
   text-align: center;
   height: 30px;
-  width: 30px;
+  width: 34px;
   margin-left: 10px;
 }
 
@@ -306,6 +329,10 @@ li.social {
   line-height: 25px;
 }
 
+.sidebar-par a {
+  margin-right: 2px;
+}
+
 .style {
   background-color: blue;
 }
@@ -315,7 +342,7 @@ li.social {
 .posts {
   text-align: center;
   color: HSLA(204, 82%, 18%, 1);
-  font-size: 35px;
+  font-size: 40px;
   border-top: solid 1px;
   border-color: HSLA(200, 18%, 90%, 1);
   font-weight: bold;
@@ -323,6 +350,7 @@ li.social {
 
 .posts h2 {
   font-family: 'Oswald', sans-serif;
+  margin: 30px;
 }
 
 ul.article-image {
@@ -336,7 +364,7 @@ li.image1 {
   background-image: url("../img/article-image-1.jpg");
   width: 325px;
   height: 325px;
-  clear: left;
+  /*clear: left;*/
   display: inline-block;
   }
 
@@ -344,14 +372,14 @@ li.image1 {
   display: block;
   width: 100%;
   height: 100%;
-  font-size: 23px;
+  /*font-size: 23px;*/
   background-color: HSLA(206, 52%, 60%, .7);
   color: HSLA(204, 82%, 18%, 1);
 }
 
 .image1 a {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-top: 284px;
   font-size: 23px;
   font-family: 'Oswald', sans-serif;
@@ -382,7 +410,7 @@ li.image2 {
 
 .image2 a {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-top: 284px;
   font-size: 23px;
   font-family: 'Oswald', sans-serif;
@@ -413,7 +441,7 @@ li.image3 {
 
 .image3 a {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-top: 250px;
   font-size: 23px;
   font-family: 'Oswald', sans-serif;
@@ -444,7 +472,7 @@ li.image4 {
 
 .image4 a {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-top: 284px;
   font-size: 23px;
   font-family: 'Oswald', sans-serif;
@@ -478,7 +506,7 @@ li.bottom-left {
 .ironyard {
   float: left;
   margin-top: 30px;
-margin-left: 125px;
+margin-left: 160px;
 }
 
 .iylogo {
@@ -497,9 +525,9 @@ ul.bottom-right {
   float: left;
   display: inline-block;
   margin-top: 40px;
-  margin-left: 357px;
+  margin-left: 310px;
   color: HSLA(206, 18%, 69%, 1);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 li.nav1 {
