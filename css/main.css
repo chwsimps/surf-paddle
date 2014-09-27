@@ -131,7 +131,8 @@ ul {
 }
 
 blockquote{
-  border-left: solid gray 1px;
+  border-left: solid HSLA(206, 18%, 77%, 1) 2px;
+  line-height: 60px;
   padding: 0;
   margin-left: 5px;
   padding-left: 20px;
@@ -233,16 +234,39 @@ li.icon-share {
 .avatar {
   text-align: center;
   margin-top: 30px;
-  text-decoration: none;
+  margin-bottom: 54px;
+}
+
+.avatar p {
+  margin-top: 2px;
+  color: HSLA(206, 84%, 38%, 1);
 }
 
 ul.avatar-list {
-  margin-top: -15px;
-  padding-right: 35px;
+  margin-top: -17px;
+  padding-right: 3px;
+  font-size: 13px;
 }
 
 li.social {
   text-align: center;
+}
+
+.twitter {
+  text-decoration: none;
+  color: HSLA(206, 18%, 69%, 1);
+}
+
+.facebook {
+  text-decoration: none;
+  color: HSLA(206, 18%, 69%, 1);
+  margin-left: 10px;
+}
+
+.instagram {
+  text-decoration: none;
+  color: HSLA(206, 18%, 69%, 1);
+  margin-left: 10px;
 }
 
 .ad {
@@ -252,6 +276,13 @@ li.social {
 .ad p {
   margin-top: 0;
   padding-left: 175px;
+}
+
+.ad a {
+  display: inline-block;
+  color: HSLA(206, 18%, 69%, 1);
+  font-size: 13px;
+  margin-left: 196px;
 }
 
 .sidebar {
