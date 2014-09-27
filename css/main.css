@@ -132,13 +132,13 @@ ul {
 
 blockquote{
   border-left: solid HSLA(206, 18%, 77%, 1) 2px;
-  line-height: 60px;
+  line-height: 56px;
   padding: 0;
-  margin-left: 5px;
+  margin-left: 9px;
   padding-left: 20px;
   display: inline-block;
   color: HSLA(206, 84%, 38%, 1);
-  font-size: 30px;
+  font-size: 28px;
   vertical-align: text-center;
 }
 
@@ -287,17 +287,23 @@ li.social {
 
 .sidebar {
   font-family: 'Oswald', sans-serif;
+  font-size: 18px;
   float:left;
   margin-left: 40px;
   margin-bottom: 0;
+  margin-top: 50px;
   color: HSLA(206, 84%, 38%, 1)
 }
 
 .sidebar-par {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
   float: left;
+  width: 275px;
   margin-left: 40px;
   margin-top: 5px;
-  color: HSLA(206, 18%, 69%, 1);
+  color: HSLA(206, 18%, 77%, 1);
+  line-height: 25px;
 }
 
 .style {
