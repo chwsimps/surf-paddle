@@ -3,6 +3,7 @@
 }
 
 /* Header */
+
 .header {
   background-image: url("../img/header.jpg");
   background-color: blue;
@@ -16,13 +17,15 @@ ul.top {
   overflow: auto;
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 11px;
 }
 
 li.logo {
   float: left;
   width: 31%;
   color: #003153;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 40px;
 }
 
 .logo-img {
@@ -38,27 +41,31 @@ li.search {
   float: right;
   font-family: 'Oswald', sans-serif;
   color: #003153;
-  font-size: 20px;
-  margin-right: 48px;
+  font-size: 18px;
+  margin-right: 70px;
+  margin-top: 5px;
 }
 
 .about {
-  margin: 20px;
+  margin: 10px;
 }
 
 .surf {
-  margin-top: 100px;
+  margin-top: 130px;
   margin-bottom: -30px;
+  margin-left: 10px;
   text-align: center;
   color: white;
-  font-size: 120px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 100px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .iron {
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 95%;
   color: #003153;
+  margin-top: 20px;
 }
 
 ul {
@@ -71,13 +78,14 @@ ul {
 .middle {
   width: 1030px;
   margin: 50px 135px;
+  margin-left: 160px;
   font-family: 'Open Sans', sans-serif;
   overflow: auto;
 }
 
 .middle-left {
   float: left;
-  width: 670px;
+  width: 625px;
   margin: 0;
 }
 
@@ -86,14 +94,15 @@ ul {
   margin-top: 0;
   margin-bottom: 2px;
   color: #003153;
+  font-family: 'Oswald', sans-serif;
 }
 
 .title-avatar {
   float: left;
   display: inline-block;
-  width: 25px;
-  margin-right: 10px;
-  margin-top: -4px;
+  width: 22px;
+  margin-right: 9px;
+  margin-left: 2px;
 }
 
 .title-area p {
@@ -101,11 +110,20 @@ ul {
 }
 
 .av-on {
-  color: HSLA(205, 8%, 40%, 1);
+  color: HSLA(206, 18%, 77%, 1);
+  font-size: 12px;
+}
+
+.time {
+  color: HSLA(206, 18%, 77%, 1);
+  font-size: 12px;
 }
 
 .avatar-span {
-  color: HSLA(206, 84%, 38%, 1)
+  color: HSLA(206, 84%, 38%, 1);
+  font-size: 12px;
+  font-weight: bolder;
+  margin-right: 5px;
 }
 
 .chic {
@@ -215,6 +233,7 @@ li.icon-share {
 .avatar {
   text-align: center;
   margin-top: 30px;
+  text-decoration: none;
 }
 
 ul.avatar-list {
@@ -236,6 +255,7 @@ li.social {
 }
 
 .sidebar {
+  font-family: 'Oswald', sans-serif;
   float:left;
   margin-left: 40px;
   margin-bottom: 0;
@@ -253,6 +273,8 @@ li.social {
   background-color: blue;
 }
 
+/*Footer*/
+
 .posts {
   text-align: center;
   color: HSLA(204, 82%, 18%, 1);
@@ -260,6 +282,10 @@ li.social {
   border-top: solid 1px;
   border-color: HSLA(200, 18%, 90%, 1);
   font-weight: bold;
+}
+
+.posts h2 {
+  font-family: 'Oswald', sans-serif;
 }
 
 ul.article-image {
@@ -291,7 +317,7 @@ li.image1 {
   margin-left: 10px;
   margin-top: 284px;
   font-size: 23px;
-  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 }
 
 .image1 div:hover {
@@ -322,12 +348,13 @@ li.image2 {
   margin-left: 10px;
   margin-top: 284px;
   font-size: 23px;
-  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 }
 
-/*.image2 div:hover {
+.image2 div:hover {
   background-color: HSLA(206, 52%, 60%, 0);
-  color: white;*/
+  color: white;
+}
 
 li.image3 {
   background-image: url("../img/article-image-3.jpg");
@@ -350,14 +377,15 @@ li.image3 {
 .image3 a {
   display: inline-block;
   margin-left: 10px;
-  margin-top: 252px;
+  margin-top: 250px;
   font-size: 23px;
-  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 }
 
-/*.image3 div:hover {
+.image3 div:hover {
   background-color: HSLA(206, 52%, 60%, 0);
-  color: white;*/
+  color: white;
+}
 
 li.image4 {
   background-image: url("../img/article-image-4.jpg");
@@ -382,7 +410,7 @@ li.image4 {
   margin-left: 10px;
   margin-top: 284px;
   font-size: 23px;
-  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 }
 
 .image4 div:hover {
