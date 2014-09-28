@@ -87,14 +87,16 @@ ul {
   float: left;
   width: 625px;
   margin: 0;
+  margin-top: 10px;
 }
 
 .title {
-  font-size: 57px;
+  font-size: 60px;
   margin-top: 0;
-  margin-bottom: 2px;
+  margin-bottom: 0;
   color: #003153;
   font-family: 'Oswald', sans-serif;
+  line-height: 75px;
 }
 
 .title-avatar {
@@ -111,19 +113,19 @@ ul {
 
 .av-on {
   color: HSLA(206, 18%, 77%, 1);
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .time {
   color: HSLA(206, 18%, 77%, 1);
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .avatar-span {
   color: HSLA(206, 84%, 38%, 1);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bolder;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .par1 {
