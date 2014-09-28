@@ -51,9 +51,8 @@ li.search {
 }
 
 .surf {
-  margin-top: 130px;
+  margin-top: 135px;
   margin-bottom: -30px;
-  margin-left: 10px;
   text-align: center;
   color: white;
   font-size: 100px;
@@ -65,7 +64,7 @@ li.search {
   font-family: 'Open Sans', sans-serif;
   font-size: 95%;
   color: #003153;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 ul {
@@ -193,6 +192,11 @@ li.icon-read {
   float:left;
 }
 
+.icon-read:hover {
+  background-color: HSLA(206, 84%, 38%, 1);
+  color: white;
+}
+
 .com-img1 {
   padding-top: 7px;
 }
@@ -220,6 +224,11 @@ li.icon-later {
   float:left;
 }
 
+.icon-later:hover {
+  background-color: HSLA(206, 84%, 38%, 1);
+  color: white;
+}
+
 .com-img2 {
   padding-top: 8px;
 }
@@ -239,12 +248,17 @@ li.icon-upload {
 }
 
 li.icon-share {
-  background-color: HSLA(206, 84%, 38%, 1);
+  background-color: HSLA(206, 18%, 69%, 1);
   width: 125px;
   height: 30px;
   font-size: 12px;
   color: white;
   float:left;
+}
+
+.icon-share:hover {
+  background-color: HSLA(206, 84%, 38%, 1);
+  color: white;
 }
 
 .com-img3 {
