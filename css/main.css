@@ -130,11 +130,16 @@ ul {
 
 .par1 {
   line-height: 26px;
-  margin-top: 30px;
+  margin-top: 35px;
+  margin-bottom: 20px;
 }
 
 .par3 {
   line-height: 26px;
+}
+
+.par3 a {
+  color: HSLA(206, 84%, 38%, 1);
 }
 
 .par4 {
@@ -254,6 +259,8 @@ li.icon-share {
 .middle-right {
   float: right;
   width: 360px;
+  padding-right: 10px;
+  padding-top: 5px;
 }
 
 .avatar {
@@ -380,8 +387,8 @@ li.image1 {
 .image1 a {
   display: inline-block;
   margin-left: 20px;
-  margin-top: 284px;
-  font-size: 23px;
+  margin-top: 275px;
+  font-size: 30px;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -409,8 +416,8 @@ li.image2 {
 .image2 a {
   display: inline-block;
   margin-left: 20px;
-  margin-top: 284px;
-  font-size: 23px;
+  margin-top: 275px;
+  font-size: 30px;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -438,9 +445,10 @@ li.image3 {
 .image3 a {
   display: inline-block;
   margin-left: 20px;
-  margin-top: 250px;
-  font-size: 23px;
+  margin-top: 241px;
+  font-size: 30px;
   font-family: 'Oswald', sans-serif;
+  line-height: 38px;
 }
 
 .image3 div:hover {
@@ -467,8 +475,8 @@ li.image4 {
 .image4 a {
   display: inline-block;
   margin-left: 20px;
-  margin-top: 284px;
-  font-size: 23px;
+  margin-top: 275px;
+  font-size: 30px;
   font-family: 'Oswald', sans-serif;
 }
 
