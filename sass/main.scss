@@ -5,13 +5,54 @@ $dark-blue: HSLA(204, 82%, 18%, 1);
 $light-blue: HSLA(206, 84%, 38%, 1);
 $dark-gray:  HSLA(205, 8%, 40%, 1);
 $light-gray: HSLA(206, 18%, 77%, 1);
+$img-color: HSLA(206, 52%, 60%, .7);
+$img-hover-color: HSLA(206, 52%, 60%, 0);
 
+// Icons
+
+// Post Images & Font
+
+@mixin post-img() {
+  background-image: url("../img/article-image-1.jpg");
+  width: 325px;
+  height: 325px;
+  display: inline-block;
+  div {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: $img-color;
+    color: $dark-blue;
+  }
+  a {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 275px;
+    font-size: 30px;
+    font-family: $font2;
+  }
+  :hover {
+    background-color:$img-hover-color;
+    color: white;
+  }
+}
+
+// Nav Items
+
+@mixin nav-item() {
+  float: left;
+  border-left: solid 1px HSLA(206, 18%, 69%, 1);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+//======================================================
 
 .full {
   width: $full-width;
 }
 
-/* Header */
+// Header ==============================================
 
 .header {
   background-image: url("../img/header.jpg");
@@ -35,10 +76,8 @@ li.logo {
   color: $dark-blue;
   font-family: $font1;
   margin-left: 40px;
-}
-
-.logo-img {
-  float: left;
+  img {
+    float: left; }
 }
 
 .top-left {
@@ -82,7 +121,7 @@ ul {
   padding: 0;
 }
 
-/* Body */
+// Body ================================================
 
 .middle {
   width: 1030px;
@@ -91,6 +130,8 @@ ul {
   font-family: $font1;
   overflow: auto;
 }
+
+// Middle Left =========================================
 
 .middle-left {
   float: left;
@@ -145,10 +186,9 @@ ul {
 
 .par3 {
   line-height: 26px;
-}
-
-.par3 a {
-  color: $light-blue;
+  a {
+    color: $light-blue;
+  }
 }
 
 .par4 {
@@ -179,6 +219,8 @@ blockquote{
   vertical-align: text-center;
 }
 
+// Icons ==============================================
+
 ul.icon {
   float: left;
   margin-top: 10px;
@@ -200,11 +242,10 @@ li.icon-read {
   font-size: 12px;
   color: white;
   float:left;
-}
-
-.icon-read:hover {
-  background-color: $light-blue;
-  color: white;
+  &:hover {
+    background-color: $light-blue;
+    color: white;
+  }
 }
 
 .com-img1 {
@@ -232,11 +273,10 @@ li.icon-later {
   font-size: 12px;
   color: white;
   float:left;
-}
-
-.icon-later:hover {
-  background-color: $light-blue;
-  color: white;
+  &:hover {
+    background-color: $light-blue;
+    color: white;
+  }
 }
 
 .com-img2 {
@@ -264,11 +304,10 @@ li.icon-share {
   font-size: 12px;
   color: white;
   float:left;
-}
-
-.icon-share:hover {
-  background-color: $light-blue;
-  color: white;
+  &:hover {
+    background-color: $light-blue;
+    color: white;
+  }
 }
 
 .com-img3 {
@@ -279,6 +318,8 @@ li.icon-share {
   margin-top: 6px;
   text-align: center;
 }
+
+// Middle Right =========================================
 
 .middle-right {
   float: right;
@@ -291,11 +332,10 @@ li.icon-share {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 54px;
-}
-
-.avatar p {
-  margin-top: 2px;
-  color: $light-blue;
+  p {
+    margin-top: 2px;
+    color: $light-blue;
+  }
 }
 
 ul.avatar-list {
@@ -327,18 +367,16 @@ li.social {
 
 .ad {
   text-align: center;
-}
-
-.ad p {
-  margin-top: 0;
-  padding-left: 175px;
-}
-
-.ad a {
-  display: inline-block;
-  color: $light-gray;
-  font-size: 13px;
-  margin-left: 196px;
+  p {
+    margin-top: 0;
+    padding-left: 175px;
+  }
+  a {
+    display: inline-block;
+    color: $light-gray;
+    font-size: 13px;
+    margin-left: 196px;
+  }
 }
 
 .sidebar {
@@ -360,17 +398,16 @@ li.social {
   margin-top: 5px;
   color: $light-gray;
   line-height: 23px;
-}
-
-.sidebar-par a {
-  margin-right: 2px;
+  a {
+    margin-right: 2px;
+  }
 }
 
 .style {
   background-color: blue;
 }
 
-/*Footer*/
+// Bottom ==============================================
 
 .posts {
   text-align: center;
@@ -379,11 +416,10 @@ li.social {
   border-top: solid 1px;
   border-color: $light-gray;
   font-weight: bold;
-}
-
-.posts h2 {
-  font-family: $font2;
-  margin: 30px;
+  h2 {
+    font-family: $font2;
+    margin: 30px;
+  }
 }
 
 ul.article-image {
@@ -393,121 +429,36 @@ ul.article-image {
   margin: 0;
 }
 
+// Post Images =========================================
+
 li.image1 {
-  background-image: url("../img/article-image-1.jpg");
-  width: 325px;
-  height: 325px;
-  display: inline-block;
-  }
-
-.image1 div {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: HSLA(206, 52%, 60%, .7);
-  color: $dark-blue;
-}
-
-.image1 a {
-  display: inline-block;
-  margin-left: 20px;
-  margin-top: 275px;
-  font-size: 30px;
-  font-family: $font2;
-}
-
-.image1 div:hover {
-  background-color: HSLA(206, 52%, 60%, 0);
-  color: white;
+  @include post-img();
 }
 
 li.image2 {
+  @include post-img();
   background-image: url("../img/article-image-2.jpg");
-  width: 325px;
-  height: 325px;
-  display: inline-block;
   margin-left: -4px;
-  }
-
-.image2 div {
-  display: block;
-  width: 325px;
-  height: 325px;
-  background-color: HSLA(206, 52%, 60%, .7);
-  color: $dark-blue;
-}
-
-.image2 a {
-  display: inline-block;
-  margin-left: 20px;
-  margin-top: 275px;
-  font-size: 30px;
-  font-family: $font2;
-}
-
-.image2 div:hover {
-  background-color: HSLA(206, 52%, 60%, 0);
-  color: white;
 }
 
 li.image3 {
+  @include post-img();
   background-image: url("../img/article-image-3.jpg");
-  width: 325px;
-  height: 325px;
-  display: inline-block;
   margin-left: -4px;
+  a {
+    margin-top: 241px;
+    font-size: 30px;
+    line-height: 38px;
   }
-
-.image3 div {
-  display: block;
-  width: 325px;
-  height: 325px;
-  background-color: HSLA(206, 52%, 60%, .7);
-  color: $dark-blue;
-}
-
-.image3 a {
-  display: inline-block;
-  margin-left: 20px;
-  margin-top: 241px;
-  font-size: 30px;
-  font-family: $font2;
-  line-height: 38px;
-}
-
-.image3 div:hover {
-  background-color: HSLA(206, 52%, 60%, 0);
-  color: white;
 }
 
 li.image4 {
+  @include post-img();
   background-image: url("../img/article-image-4.jpg");
-  width: 325px;
-  height: 325px;
-  display: inline-block;
   margin-left: -4px;
-  }
-
-.image4 div {
-  display: block;
-  width: 325px;
-  height: 325px;
-  background-color: HSLA(206, 52%, 60%, .7);
-  color: $dark-blue;
 }
 
-.image4 a {
-  display: inline-block;
-  margin-left: 20px;
-  margin-top: 275px;
-  font-size: 30px;
-  font-family: $font2;
-}
-
-.image4 div:hover {
-  background-color: HSLA(206, 52%, 60%, 0);
-  color: white;
-}
+// Footer ==============================================
 
 .footer {
   font-family: $font1;
@@ -532,7 +483,7 @@ li.bottom-left {
 .ironyard {
   float: left;
   margin-top: 30px;
-margin-left: 160px;
+  margin-left: 160px;
 }
 
 .iylogo {
@@ -552,7 +503,7 @@ ul.bottom-right {
   display: inline-block;
   margin-top: 40px;
   margin-left: 310px;
-  color: HSLA(206, 18%, 69%, 1);
+  color: $light-gray;
   font-size: 14px;
 }
 
@@ -562,22 +513,13 @@ li.nav1 {
 }
 
 li.nav2 {
-  float: left;
-  border-left: solid 1px HSLA(206, 18%, 69%, 1);
-  padding-left: 5px;
-  padding-right: 5px;
+  @include nav-item();
 }
 
 li.nav3 {
-  float: left;
-  border-left: solid 1px HSLA(206, 18%, 69%, 1);
-  padding-left: 5px;
-  padding-right: 5px;
+  @include nav-item();
 }
 
 li.nav5 {
-  float: left;
-  border-left: solid 1px HSLA(206, 18%, 69%, 1);
-  padding-left: 5px;
-  padding-right: 5px;
+  @include nav-item();
 }
