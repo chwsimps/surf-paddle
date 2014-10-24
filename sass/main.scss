@@ -1,0 +1,525 @@
+$font1: 'Open Sans', sans-serif;
+$font2: 'Oswald', sans-serif;
+$full-width: 1300px;
+$dark-blue: HSLA(204, 82%, 18%, 1);
+$light-blue: HSLA(206, 84%, 38%, 1);
+$dark-gray:  HSLA(205, 8%, 40%, 1);
+$light-gray: HSLA(206, 18%, 77%, 1);
+$img-color: HSLA(206, 52%, 60%, .7);
+$img-hover-color: HSLA(206, 52%, 60%, 0);
+
+// Icons
+
+// Post Images & Font
+
+@mixin post-img() {
+  background-image: url("../img/article-image-1.jpg");
+  width: 325px;
+  height: 325px;
+  display: inline-block;
+  div {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: $img-color;
+    color: $dark-blue;
+  }
+  a {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 275px;
+    font-size: 30px;
+    font-family: $font2;
+  }
+  :hover {
+    background-color:$img-hover-color;
+    color: white;
+  }
+}
+
+// Nav Items
+
+@mixin nav-item() {
+  float: left;
+  border-left: solid 1px HSLA(206, 18%, 69%, 1);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+//======================================================
+
+.full {
+  width: $full-width;
+}
+
+// Header ==============================================
+
+.header {
+  background-image: url("../img/header.jpg");
+  background-color: blue;
+  height: 523px;
+  width: $full-width;
+  padding: 0;
+  overflow: auto;
+}
+
+ul.top {
+  overflow: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 11px;
+}
+
+li.logo {
+  float: left;
+  width: 31%;
+  color: $dark-blue;
+  font-family: $font1;
+  margin-left: 40px;
+  img {
+    float: left; }
+}
+
+.top-left {
+  margin: 10px;
+  display: inline-block;
+}
+
+li.search {
+  float: right;
+  font-family: $font2;
+  color: $dark-blue;
+  font-size: 18px;
+  margin-right: 70px;
+  margin-top: 5px;
+}
+
+.about {
+  margin: 10px;
+}
+
+.surf {
+  margin-top: 135px;
+  margin-bottom: -30px;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-family: $font1;
+  letter-spacing: -2px;
+}
+
+.iron {
+  text-align: center;
+  font-family: $font1;
+  font-size: 95%;
+  color: $dark-blue;
+  margin-top: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+// Body ================================================
+
+.middle {
+  width: 1030px;
+  margin: 50px 135px;
+  margin-left: 160px;
+  font-family: $font1;
+  overflow: auto;
+}
+
+// Middle Left =========================================
+
+.middle-left {
+  float: left;
+  width: 625px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.title {
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $dark-blue;
+  font-family: $font2;
+  line-height: 75px;
+}
+
+.title-avatar {
+  float: left;
+  display: inline-block;
+  width: 22px;
+  margin-right: 9px;
+  margin-left: 2px;
+}
+
+.title-area p {
+  color: $dark-gray;
+}
+
+.av-on {
+  color: $light-gray;
+  font-size: 13px;
+}
+
+.time {
+  color: $light-gray;
+  font-size: 13px;
+}
+
+.avatar-span {
+  color: $light-blue;
+  font-size: 13px;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+
+.par1 {
+  line-height: 26px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.par3 {
+  line-height: 26px;
+  a {
+    color: $light-blue;
+  }
+}
+
+.par4 {
+  line-height: 26px;
+}
+
+.chic {
+  color: $dark-gray;
+  line-height: 25px;
+}
+
+.chic-text {
+  color: $light-gray;
+  margin-right: -3px;
+}
+
+blockquote{
+  border-left: solid $light-gray 2px;
+  line-height: 56px;
+  padding: 0;
+  margin-left: 9px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding-left: 20px;
+  display: inline-block;
+  color: $light-blue;
+  font-size: 27px;
+  vertical-align: text-center;
+}
+
+// Icons ==============================================
+
+ul.icon {
+  float: left;
+  margin-top: 10px;
+}
+
+li.icon-comment {
+  float:left;
+  background-color: $dark-gray;
+  text-align: center;
+  height: 30px;
+  width: 34px;
+  margin-left: 5px;
+}
+
+li.icon-read {
+  background-color: $light-gray;
+  width: 125px;
+  height: 30px;
+  font-size: 12px;
+  color: white;
+  float:left;
+  &:hover {
+    background-color: $light-blue;
+    color: white;
+  }
+}
+
+.com-img1 {
+  padding-top: 7px;
+}
+
+.read-com1 {
+  margin-top: 6px;
+  text-align: center;
+}
+
+li.icon-cloud {
+  float:left;
+  background-color: $dark-gray;
+  text-align: center;
+  height: 30px;
+  width: 34px;
+  margin-left: 10px;
+}
+
+li.icon-later {
+  background-color: $light-gray;
+  width: 95px;
+  height: 30px;
+  font-size: 12px;
+  color: white;
+  float:left;
+  &:hover {
+    background-color: $light-blue;
+    color: white;
+  }
+}
+
+.com-img2 {
+  padding-top: 8px;
+}
+
+.read-com2 {
+  margin-top: 6px;
+  text-align: center;
+}
+
+li.icon-upload {
+  float:left;
+  background-color: $dark-gray;
+  text-align: center;
+  height: 30px;
+  width: 34px;
+  margin-left: 10px;
+}
+
+li.icon-share {
+  background-color: $light-gray;
+  width: 120px;
+  height: 30px;
+  font-size: 12px;
+  color: white;
+  float:left;
+  &:hover {
+    background-color: $light-blue;
+    color: white;
+  }
+}
+
+.com-img3 {
+  padding-top: 7px;
+}
+
+.read-com3 {
+  margin-top: 6px;
+  text-align: center;
+}
+
+// Middle Right =========================================
+
+.middle-right {
+  float: right;
+  width: 360px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.avatar {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 54px;
+  p {
+    margin-top: 2px;
+    color: $light-blue;
+  }
+}
+
+ul.avatar-list {
+  margin-top: -17px;
+  padding-right: 3px;
+  font-size: 13px;
+}
+
+li.social {
+  text-align: center;
+}
+
+.twitter {
+  text-decoration: none;
+  color: $light-gray;
+}
+
+.facebook {
+  text-decoration: none;
+  color: $light-gray;
+  margin-left: 10px;
+}
+
+.instagram {
+  text-decoration: none;
+  color: $light-gray;
+  margin-left: 10px;
+}
+
+.ad {
+  text-align: center;
+  p {
+    margin-top: 0;
+    padding-left: 175px;
+  }
+  a {
+    display: inline-block;
+    color: $light-gray;
+    font-size: 13px;
+    margin-left: 196px;
+  }
+}
+
+.sidebar {
+  font-family: $font2;
+  font-size: 18px;
+  float:left;
+  margin-left: 40px;
+  margin-bottom: 0;
+  margin-top: 45px;
+  color: $light-blue
+}
+
+.sidebar-par {
+  font-family: $font1;
+  font-size: 14px;
+  float: left;
+  width: 275px;
+  margin-left: 40px;
+  margin-top: 5px;
+  color: $light-gray;
+  line-height: 23px;
+  a {
+    margin-right: 2px;
+  }
+}
+
+.style {
+  background-color: blue;
+}
+
+// Bottom ==============================================
+
+.posts {
+  text-align: center;
+  color: $dark-blue;
+  font-size: 40px;
+  border-top: solid 1px;
+  border-color: $light-gray;
+  font-weight: bold;
+  h2 {
+    font-family: $font2;
+    margin: 30px;
+  }
+}
+
+ul.article-image {
+  float: left;
+  width: $full-width;
+  height: 325px;
+  margin: 0;
+}
+
+// Post Images =========================================
+
+li.image1 {
+  @include post-img();
+}
+
+li.image2 {
+  @include post-img();
+  background-image: url("../img/article-image-2.jpg");
+  margin-left: -4px;
+}
+
+li.image3 {
+  @include post-img();
+  background-image: url("../img/article-image-3.jpg");
+  margin-left: -4px;
+  a {
+    margin-top: 241px;
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+li.image4 {
+  @include post-img();
+  background-image: url("../img/article-image-4.jpg");
+  margin-left: -4px;
+}
+
+// Footer ==============================================
+
+.footer {
+  font-family: $font1;
+  overflow: auto;
+}
+
+ul.bottom {
+  float: left;
+  width: $full-width;
+  height: 100px;
+  margin: 0;
+}
+
+li.bottom-left {
+  background-color: $dark-blue;
+  width: $full-width;
+  height: 100px;
+  float: left;
+  display: inline-block;
+}
+
+.ironyard {
+  float: left;
+  margin-top: 30px;
+  margin-left: 160px;
+}
+
+.iylogo {
+  float: left;
+}
+
+.iytext {
+  float: left;
+  margin-left: 13px;
+  margin-top: 12px;
+  color: HSLA(206, 18%, 69%, 1);
+  font-size: 13px;
+}
+
+ul.bottom-right {
+  float: left;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 310px;
+  color: $light-gray;
+  font-size: 14px;
+}
+
+li.nav1 {
+  float: left;
+  padding-right: 5px;
+}
+
+li.nav2 {
+  @include nav-item();
+}
+
+li.nav3 {
+  @include nav-item();
+}
+
+li.nav5 {
+  @include nav-item();
+}
