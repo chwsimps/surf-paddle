@@ -14,7 +14,7 @@ $img-hover-color: HSLA(206, 52%, 60%, 0);
 
 @mixin post-img() {
   background-image: url("../images/article-image-1.jpg");
-  width: 325px;
+  width: 25%;
   height: 325px;
   display: inline-block;
   float: left;
