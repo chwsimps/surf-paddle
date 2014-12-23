@@ -16,10 +16,8 @@ $img-hover-color: HSLA(206, 52%, 60%, 0);
   background-image: url("../images/article-image-1.jpg");
   width: 25%;
   height: 325px;
-  display: inline-block;
   float: left;
   div {
-    display: block;
     width: 100%;
     height: 100%;
     background-color: $img-color;
