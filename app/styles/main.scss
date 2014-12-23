@@ -460,12 +460,12 @@ li.image4 {
 
 .footer {
   font-family: $font1;
-  overflow: auto;
+  width: 100%;
 }
 
 ul.bottom {
   float: left;
-  width: $full-width;
+  width: 100%;
   height: 100px;
   margin: 0;
 }
